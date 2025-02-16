@@ -6,6 +6,11 @@
   "sideEffects": false,
   "type": "module",
   "version": "0.0.6",
+  "remix": {
+  "future": {
+    "v3_singleFetch": true
+  }
+},
   "scripts": {
     "deploy": "npm run build",
     "build": "remix vite:build",
